@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 20px 40px;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #e2d55f;
+}
+.wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00000066;
+}
+.headerPontuacao {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.jogadas {
+    display: flex;
+    gap: 40px;
+    height: 25%;
+}
+
+#pedra, 
+#papel, 
+#tesoura {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+.maquina {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

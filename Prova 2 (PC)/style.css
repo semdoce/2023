@@ -1,0 +1,71 @@
+
+*{
+    font-family:'Times New Roman', Times, serif
+}
+body{
+    background-color: rgb(214, 210, 175);
+    overflow: hidden
+}
+
+.dois {
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.texto{
+    width:250px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.titulo {
+color: dimgray;
+font-size: medium;
+}
+
+.texto p {
+color: dimgray;
+}
+
+h1 span {
+font-size: 10px;
+margin-bottom: 5px;
+color: dimgray;
+}
+
+h1{
+    color: rgb(27, 126, 129);
+}
+
+#titulo2 {
+    color: black;
+    font-size: 2em;
+}
+
+.imagem {
+    width: 300px;
+    height: 480px;
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+}
+
+button{
+    background-color:rgb(27, 126, 129);
+    border: none;
+    border-radius: 7px;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .4s;
+}
+button:hover {
+    background:rgb(10, 82, 85)
+}
